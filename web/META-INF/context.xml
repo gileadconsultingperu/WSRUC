@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/WSRUC">
+    <Resource
+        auth="Container" 
+        driverClassName="org.postgresql.Driver" 
+        maxActive="20" 
+        maxIdle="10" 
+        maxWait="-1" 
+        name="WSRUC" 
+        password="postgres" 
+        type="javax.sql.DataSource" 
+        url="jdbc:postgresql://localhost:5432/WSRUC?useUnicode=true&amp;characterEncoding=utf-8" 
+        username="postgres"
+    />    
+</Context>
